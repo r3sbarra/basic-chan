@@ -1,0 +1,13 @@
+{
+  "name": "Basic-chan",
+  "slug": "basic-chan",
+  "version": "0.1.0",
+  "description": "Daemonless, agent-native foundational framework for the -chan ecosystem. Unifies dynamic sister discovery, SQLite WAL memory, scope guards, rich CLIs, and native MCP servers.",
+  "author": "OpenClaw",
+  "entry_point": "basic_chan.cli.app:main",
+  "health_check_path": "/health",
+  "app_type": "standalone",
+  "has_web_ui": false,
+  "requires_auth": false,
+  "settings": []
+}

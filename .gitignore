@@ -1,0 +1,25 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+**/*.pyc
+**/__pycache__/**
+
+# Virtual environments
+.venv/
+venv/
+ENV/
+env/
+
+# Testing & build artifacts
+.pytest_cache/
+*.egg-info/
+dist/
+build/
+
+# Project state & snapshots
+data/*.db
+data/*.lock
+.chan_snapshots/
+.morphe_snapshots/
+reports/
